@@ -23,7 +23,7 @@ public class mpage extends JFrame {
        
         
         team = new JButton("Team");
-        team.setIcon(new ImageIcon(new ImageIcon("/media/ayush/54CE1672CE164C9C/Link to KU_CE/projects/dbms mini project 4th sem/final/MiniProject/src/club.jpg").getImage().getScaledInstance(400,500,Image.SCALE_DEFAULT)));
+        team.setIcon(new ImageIcon(new ImageIcon("club.jpg").getImage().getScaledInstance(400,500,Image.SCALE_DEFAULT)));
         f.add(team);
         team.setBounds(0,0,400,500);
         team.addActionListener(
@@ -37,7 +37,7 @@ public class mpage extends JFrame {
         );
         
         player = new JButton("Player");
-        player.setIcon(new ImageIcon(new ImageIcon("/media/ayush/54CE1672CE164C9C/Link to KU_CE/projects/dbms mini project 4th sem/final/MiniProject/src/player.jpg").getImage().getScaledInstance(400,500,Image.SCALE_DEFAULT)));
+        player.setIcon(new ImageIcon(new ImageIcon("player.jpg").getImage().getScaledInstance(400,500,Image.SCALE_DEFAULT)));
         f.add(player);
         player.setBounds(400+insets.left,0,400,500);
         player.addActionListener(

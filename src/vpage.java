@@ -45,7 +45,7 @@ DefaultListModel<String> model = new DefaultListModel<>();
         searchteam.setFont(searchteam.getFont().deriveFont(18f));
         
         background = new JLabel();
-        background.setIcon(new ImageIcon(new ImageIcon("/media/ayush/54CE1672CE164C9C/Link to KU_CE/projects/dbms mini project 4th sem/final/MiniProject/src/back2.jpg").getImage().getScaledInstance(800,500,Image.SCALE_DEFAULT)));
+        background.setIcon(new ImageIcon(new ImageIcon("/back2.jpg").getImage().getScaledInstance(800,500,Image.SCALE_DEFAULT)));
         f.add(background);
         background.setBounds(0, 0, 800, 500);
        

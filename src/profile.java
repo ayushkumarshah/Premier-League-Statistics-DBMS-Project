@@ -28,7 +28,7 @@ public class profile {
         pro.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         insets = pro.getInsets();
          background = new JLabel();
-        background.setIcon(new ImageIcon(new ImageIcon("/media/ayush/54CE1672CE164C9C/Link to KU_CE/projects/dbms mini project 4th sem/final/MiniProject/src/back2.jpg").getImage().getScaledInstance(800,600,Image.SCALE_DEFAULT)));
+        background.setIcon(new ImageIcon(new ImageIcon("back2.jpg").getImage().getScaledInstance(800,600,Image.SCALE_DEFAULT)));
         pro.add(background);
         background.setBounds(0,0,800,600);
         values[0] = name;
